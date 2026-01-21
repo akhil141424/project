@@ -66,9 +66,9 @@ You need to run **two separate terminals**.
 **Terminal 1: The Dashboard Server
 Start the backend server to visualize alerts.**
 ```bash
-python server.py
+python server.py```
 
-### Terminal 2: The Network Sensor
-Start the sniffer to capture traffic. (Requires Admin/Root privileges).###
+**Terminal 2: The Network Sensor
+Start the sniffer to capture traffic. (Requires Admin/Root privileges).**
 '''bash
 python sniffer.py
