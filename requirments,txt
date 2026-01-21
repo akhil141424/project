@@ -1,0 +1,15 @@
+# --- Core AI & Data Processing ---
+numpy>=1.21.0
+pandas>=1.3.0
+scikit-learn>=1.0.0
+tensorflow>=2.10.0   # The Deep Learning Brain
+joblib>=1.1.0        # For saving/loading models
+
+# --- Network Sniffing ---
+scapy>=2.4.5         # Captures packets (Requires Npcap on Windows)
+
+# --- Backend Server & Dashboard ---
+fastapi>=0.95.0      # The Web Framework
+uvicorn[standard]>=0.22.0  # The Server that runs FastAPI
+jinja2>=3.1.2        # For serving the HTML Dashboard
+python-multipart>=0.0.6 # Required for some FastAPI form features
